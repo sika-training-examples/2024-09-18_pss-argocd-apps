@@ -8,7 +8,7 @@ metadata:
 spec:
   project: hello-pss
   destination:
-    namespace: signpost
+    namespace: hello-pss
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
