@@ -8,8 +8,11 @@ spec:
   - list:
       elements:
       - name: redis
+        chart: pss-redis
       - name: backend
+        chart: pss-app
       - name: frontend
+        chart: pss-app
   template:
     metadata:
       name: 'counter-{{name}}'
@@ -29,7 +32,7 @@ spec:
           - CreateNamespace=true
       sources:
       - repoURL: https://gitlab.sikalabs.com/clients-public/pss/pss-charts.git
-        path: charts/pss-app
+        path: charts/{{chart}}
         helm:
           valueFiles:
           - '$values/apps/dev/counter/{{name}}.values.yml'
