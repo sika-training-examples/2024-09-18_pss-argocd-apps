@@ -20,7 +20,7 @@ spec:
       finalizers:
         - resources-finalizer.argocd.argoproj.io
     spec:
-      project: default
+      project: counter
       destination:
         namespace: counter
         server: https://kubernetes.default.svc
