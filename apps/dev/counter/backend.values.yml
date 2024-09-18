@@ -1,0 +1,6 @@
+image: ondrejsika/counter
+host: counter-backend.k8s.sikademo.com
+port: 80
+containerPort: 8000
+env:
+  PORT: 8000
