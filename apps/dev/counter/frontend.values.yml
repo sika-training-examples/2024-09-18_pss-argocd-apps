@@ -2,6 +2,6 @@ image: ghcr.io/ondrejsika/counter-frontend
 host: counter.k8s.sikademo.com
 port: 80
 containerPort: 3000
-replicas: 2
+replicas: 4
 env:
   API_ORIGIN: http://counter-backend-pss-app
