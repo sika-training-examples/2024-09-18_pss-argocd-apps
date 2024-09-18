@@ -5,4 +5,4 @@ containerPort: 8000
 replicas: 2
 env:
   PORT: 8000
-  REDIS: counter-redis-pss-app
+  REDIS: counter-redis
