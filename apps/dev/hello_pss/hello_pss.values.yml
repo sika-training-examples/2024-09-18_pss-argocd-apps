@@ -1,4 +1,4 @@
-host: apps.k8s.sikademo.com
+host: apps-http.k8s.sikademo.com
 path: /hello-pss
 tls: false
 port: 80
