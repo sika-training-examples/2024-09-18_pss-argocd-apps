@@ -5,4 +5,5 @@ containerPort: 8000
 replicas: 2
 env:
   PORT: 8000
-  REDIS: counter-redis
+  BACKEND: mongodb
+  MONGODB_URI: mongodb://root:root@counter-mongodb:27017

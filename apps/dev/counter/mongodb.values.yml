@@ -1,0 +1,4 @@
+# https://artifacthub.io/packages/helm/bitnami/mongodb?modal=values
+architecture: standalone
+auth:
+  rootPassword: root

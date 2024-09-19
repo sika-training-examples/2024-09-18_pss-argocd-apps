@@ -7,8 +7,6 @@ spec:
   generators:
   - list:
       elements:
-      - name: redis
-        chart: pss-redis
       - name: backend
         chart: pss-app
       - name: frontend
