@@ -18,7 +18,7 @@ spec:
     syncOptions:
       - PruneLast=true
   source:
-    repoURL: https://gitlab.sikalabs.com/clients-public/pss/pss-argocd-apps.git
+    repoURL: https://gitlab.sikalabs.com/examples/pss/pss-argocd-apps.git
     path: apps/prod
     directory:
       recurse: true

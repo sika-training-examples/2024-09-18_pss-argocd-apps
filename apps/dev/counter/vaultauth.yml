@@ -17,7 +17,7 @@ spec:
     syncOptions:
     - CreateNamespace=true
   source:
-    repoURL: https://gitlab.sikalabs.com/clients-public/pss/pss-charts.git
+    repoURL: https://gitlab.sikalabs.com/examples/pss/pss-charts.git
     path: charts/pss-vault-auth
     helm:
       releaseName: counter

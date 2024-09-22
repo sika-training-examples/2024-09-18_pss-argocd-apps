@@ -23,5 +23,5 @@ spec:
       helm:
         valueFiles:
           - '$values/apps/dev/mongo_example/mongo_example.values.yml'
-    - repoURL: https://gitlab.sikalabs.com/clients-public/pss/pss-argocd-apps.git
+    - repoURL: https://gitlab.sikalabs.com/examples/pss/pss-argocd-apps.git
       ref: values
